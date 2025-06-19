@@ -1,0 +1,9 @@
+# .streamlit/config.toml
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8501 # Default Streamlit port, usually fine
+
+[browser]
+gatherUsageStats = false # This line prevents the permission error
