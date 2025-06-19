@@ -6,4 +6,4 @@ enableXsrfProtection = false
 port = 8501 # Default Streamlit port, usually fine
 
 [browser]
-gatherUsageStats = false # This line prevents the permission error
+gatherUsageStats = false # <--- THIS IS THE KEY LINE FOR THE PERMISSION ERROR
