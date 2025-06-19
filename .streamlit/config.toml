@@ -3,7 +3,7 @@
 headless = true
 enableCORS = false
 enableXsrfProtection = false
-port = 8501 # Default Streamlit port, usually fine
+port = 8501 
 
 [browser]
-gatherUsageStats = false # <--- THIS IS THE KEY LINE FOR THE PERMISSION ERROR
+gatherUsageStats = false 
